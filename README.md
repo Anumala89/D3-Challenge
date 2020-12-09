@@ -1,6 +1,6 @@
 # D3-Challenge
 
-Create a scatter plot between two data variavles given.
+Create a scatter plot between two (or more) data variables.
 
 
 ### Core Assignment: D3 Dabbler (Required Assignment)
@@ -11,7 +11,7 @@ Create a scatter plot between two data variavles given.
 
     * Include state abbreviations in the circles.
 
-    * Create and situate your axes and labels to the left and   bottom of the chart.
+    * Create and situate the axes and labels to the left and   bottom of the chart.
 
 
 Following is the chart of Healthcare vs. Poverty:      
