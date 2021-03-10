@@ -3,11 +3,14 @@
 Create a scatter plot between two (or more) data variables.
 
 
-### Core Assignment: D3 Dabbler (Required Assignment)
+### Purpose
 
-1. Create a scatter plot between data variables as Healthcare vs. Poverty or Smokers vs. Age.
+The core purpose of this assignment is to create a scatter plot between data variables such as Healthcare vs. Poverty or Smokers vs. Age. The dataset id based on 2014 ACS 1 year estimates from the [US Census Bureau](https://data.census.gov/cedsci/).The current data set includes data on rates of income, obesity, poverty etc. by state.
 
-2. Using D3 techniques, create a scatter plot that represents each state with circle element.
+
+### D3 Dabbler
+
+Using D3 techniques, scatter plot was created that represents each state with circle element. The graphic was coded in the `app.js`
 
     * Include state abbreviations in the circles.
 
