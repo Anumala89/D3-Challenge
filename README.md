@@ -10,28 +10,23 @@ The core purpose of this assignment is to create a scatter plot between data var
 
 ### D3 Dabbler
 
-Using D3 techniques, scatter plot was created that represents each state with circle element. The graphic was coded in the `app.js`
-
-    * Include state abbreviations in the circles.
-
-    * Create and situate the axes and labels to the left and   bottom of the chart.
-
+Using D3 techniques, scatter plot was created that represents each state with circle element. The graphic was coded in the `app.js`. Data were imported using the `d3.csv` function. State abbreviation were included in the circles and labels were placed to the left and bottom of the chart.
 
 Following is the chart of Healthcare vs. Poverty:      
 
 ![scatter](images/scatter.jpg)
 
 
-### Bonus: Impress the Boss (Optional Assignment)
+### More Data, More Dynamics
 
-1. Place additional labels in the scatter plot and give them click events.
+1. Additional labels were placed in the scatter plot that were user interactive with click events. With each click or selection of the labels the locations of the circles as well as the range of the axes were transited.
 
 ![animated-scatter](images/animated-scatter.gif)
 
-2. Animate the transitions for circle's locations as well as the range of the axes.
 
-3. Incorporate d3-tip that reveals the approximate values for each circle.
+### Incorporate d3-tip
 
+While the ticks on the axes allow us to infer approximate values for each circle, it's impossible to determine the true value without adding another layer of data. Enter tooltips: developers can implement these in their D3 graphics to reveal a specific element's data when the user hovers their cursor over the element. Here, `d3-tip.js` plugin developed by [Justin Palmer](https://github.com/Caged) was incorporated to give true values.
 
 Following is the chart with three labels on each axis:
 
