@@ -16,12 +16,14 @@ Create a scatter plot between two (or more) data variables.
 
 Following is the chart of Healthcare vs. Poverty:      
 
-![alt text](https://github.com/Anumala89/D3-Challenge/blob/main/images/chart_with_two_axes_labels.png?raw=true)
+![scatter](images/scatter.jpg)
 
 
 ### Bonus: Impress the Boss (Optional Assignment)
 
 1. Place additional labels in the scatter plot and give them click events.
+
+![animated-scatter](images/animated-scatter.gif)
 
 2. Animate the transitions for circle's locations as well as the range of the axes.
 
@@ -30,13 +32,7 @@ Following is the chart of Healthcare vs. Poverty:
 
 Following is the chart with three labels on each axis:
 
-![alt text](https://github.com/Anumala89/D3-Challenge/blob/main/images/chart_with_multiple_axes_labels.png?raw=true)
-
-
-And this one is with tooltip:
-
-![alt text](https://github.com/Anumala89/D3-Challenge/blob/main/images/chart_with_tooltip.png?raw=true)
-
+![tooltip](images/tooltip.gif)
 
 Link to the web page :
 https://anumala89.github.io/D3-Challenge/

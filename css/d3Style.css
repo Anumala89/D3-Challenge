@@ -37,9 +37,9 @@
   fill: #89bdd3;
   stroke: #e3e3e3;
 }
-.stateCircle:hover {
+/* .stateCircle:hover {
   stroke: black
-}
+} */
 
 .chart {
   display: block;
