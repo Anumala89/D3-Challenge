@@ -134,12 +134,16 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
   
   circlesGroup.call(toolTip);
   
+  // onmouseover event
   circlesGroup.on("mouseover", function(data) {
     toolTip.show(data, this);
+    d3.select(this).style("stroke", "#323232");
   })
     // onmouseout event
-  .on("mouseout", function(data, index) {
+  .on("mouseout", function(data) {
     toolTip.hide(data);
+    d3.select(this).style("stroke", "#e3e3e3");
+
   });
   
   return circlesGroup;
