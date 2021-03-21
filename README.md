@@ -1,4 +1,4 @@
-# D3-Challenge
+# data-journalism-and-d3
 
 Create a scatter plot between two (or more) data variables.
 
